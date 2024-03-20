@@ -1,0 +1,888 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+     
+     height :auto;
+     max-width: 1420px;
+     margin: 0rem auto;
+     padding: 1rem;
+}
+
+/* Header Section CSS */
+.header-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Logo CSS */
+.logo-section
+{
+    all: unset;
+}
+
+.logo-img
+{
+    height: 2rem;
+}
+
+.logo-name
+{
+   font-size: 3rem;
+   font-weight: bold; 
+   color: rgba(20, 20, 20, 0.911);
+}
+
+/* Navigation CSS */
+.navigation-link
+{
+    all: unset;
+    color: rgba(114, 108, 108, 0.938);
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 0 0.5rem;
+    transition: color 0.2s;
+}
+
+.navigation-link:hover
+{
+    color: rgba(30, 30, 247, 0.938);
+}
+
+/* Contact Link CSS */
+.contact-link
+{
+    border: none;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 0.7rem;
+    padding: 0.8rem 2rem;
+    background-color: rgba(85, 82, 247, 0.979);
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.1s;
+}
+
+
+
+.contact-link:hover
+{
+    background-color: rgb(64, 64, 235);
+}
+
+.menu-button
+{
+    height: 55px;
+    width: 55px;
+    border: none;
+    display: none; /* Isko media query ke time show karenge*/
+}
+
+.menuIcon
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* Header Section CSS Ends */
+
+/* Hero Section CSS */
+.hero-section
+{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    
+}
+
+/* Hero Section Left Side box CSS */
+
+.left-side-hero-section
+{
+   padding-top: 5rem;
+   overflow: hidden;
+   animation: slideFromLeft 1s linear 0.1s;
+   width: 50%;
+}
+
+@keyframes slideFromLeft 
+{
+     0%
+     {
+         transform: translate(-100%);
+     }    
+     100%
+     {
+        transform: translate(0); /* 0 means original position par content rakh do*/
+     }
+}
+
+
+.hero-intro
+{
+    color: rgba(85, 82, 247, 0.979);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero-heading
+{
+    font-size: 3.5rem;
+    max-width: 60%;
+    margin-top: 1rem;
+    color:rgba(20, 20, 20, 0.911);
+}
+
+.hero-description
+{
+    font-size: 1.7rem;
+    color: gray;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 60%;
+}
+
+.hero-btn
+{
+   border: none; 
+   margin-right: 2rem;
+   font-size: 1.5rem;
+   color: aliceblue;
+   font-weight: bold;
+   padding: 1rem;
+   border-radius: 0.7rem;
+}
+
+.hero-btn-1
+{
+    background-color:rgba(85, 82, 247, 0.979);
+    transition: background-color 0.1s;
+}
+
+.hero-btn-1:hover
+{
+    background-color: rgb(64, 64, 235);
+}
+
+.hero-btn-2
+{
+    background-color:rgba(20, 20, 20, 0.911);
+    transition: background-color 0.1s;
+}
+
+.hero-btn-2:hover
+{
+    background-color: black;
+}
+
+/* Hero Section Right Side box CSS */
+
+.right-side-hero-section
+{
+     width: 50%;
+     
+}
+
+.hero-img
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+
+.hero-img-source
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Hero Section CSS Ends */
+
+/* Center Container CSS */
+
+.center-container-1
+{
+   margin-top: 2rem;
+   width: 70%;
+   height: auto;
+   margin-inline:auto;
+   overflow: hidden;
+   animation: slideFromLeft 1s linear 0.1s;
+
+}
+
+.center-heading
+{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.center-image-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(49, 48, 48, 0.945);
+    padding: 0.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: auto;
+    
+
+}
+
+.center-container1-image
+{
+     height: 45px;
+     width: 45px;
+     position: relative;
+     top: 8px;
+}
+
+.center-title
+{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Center 2 CSS Code */
+
+.center-2-container
+{
+    margin-top: 3rem;
+    margin-inline: auto;
+    padding: 1rem;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    background-color:rgba(106, 223, 223, 0.945);
+    overflow: hidden;    
+    
+}
+
+.center-2-heading
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.center-2-description
+{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 520;
+   
+}
+
+.center-2-card-container
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.center-2-card
+{
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    width:40%;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.card1
+{
+    background-color: rgba(100, 100, 190, 0.795);
+}
+
+.card2
+{
+    background-color:rgba(245, 129, 170, 0.767);
+}
+
+.card3
+{
+    background-color:rgb(248, 248, 132);
+}
+
+.card4
+{
+    background-color:rgb(169, 243, 243);
+}
+
+.card5
+{
+    background-color:rgb(136, 248, 136);
+    
+}
+
+.card-5-img
+{
+    border-radius: 50%
+}
+
+.card6
+{
+    background-color:rgba(184, 91, 184, 0.925);
+}
+
+.center-2-image
+{
+    height: 55px;
+    width: 55px;
+    border: none;
+}
+
+.center-2-card-item
+{
+    margin-bottom: 1.3rem;
+    
+}
+
+.card-heading
+{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(0, 0, 139);
+}
+
+.card-para
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(0,0,139);
+}
+
+/* Testimonial CSS */
+
+.testimonial-container
+{
+    margin-top: 4rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.testimonial-heading
+{
+    font-size: 2.7rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.testimonial-card-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.testimonial-card
+{
+    border: 1px solid black;
+    width: 33%;
+    height: 25rem;
+    padding: 1rem;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px black;
+    transition: all 0.3s linear;
+}
+
+.testimonial-card:hover
+{
+   border-color: rgba(0, 0, 139, 0.945);
+   transform: scale(1.01);
+   box-shadow: 0px 4px 8px  rgba(0, 0, 139, 0.945);
+}
+
+
+
+.testimonial-description
+{
+   font-size: 1.2rem;
+   margin-bottom: 1rem;
+}
+
+.testimonial-avtar
+{
+    height: 140px;
+    width: 140px;
+    margin-bottom: 1rem;
+}
+
+.avtar-name
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(19, 19, 236);
+    margin-bottom: 0.5rem;
+}
+
+.avtar-profession
+{
+   font-size: 1.2rem;
+   color: gray;  
+}
+
+/* Form Section CSS */
+
+.form-section
+{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.left-side-form
+{
+    width: 50%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.form-img
+{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.right-side-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 50%;
+    background-color: rgba(90, 87, 87, 0.87);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.form-title
+{
+    font-size: 2.5rem;
+    color:rgb(64, 64, 235);
+    margin-bottom: 1rem;
+    
+}
+
+.form-sub-title
+{   display: block;
+    height:1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.input-section
+{
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.input-field
+{   
+    border: none;
+    height: 2.5rem;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    outline: none; /*outline none karne se jo email-field par click karne par black border aa rha hai wo nhi aayega*/
+    
+}
+
+.send-btn
+{
+    height: 2.5rem;
+    width: 4rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    color: white;
+    background-color: rgb(64, 64, 235);
+    border: none;
+    
+}
+
+.form-footer-description
+{
+    font-size: 1.2rem;
+    max-width: 80%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.anchor-text
+{
+    color: rgb(0, 0, 139);
+}
+
+/* Footer Section CSS */
+
+.footer-section
+{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.left-side-footer
+{
+    width: 40%;
+    height: 16rem;
+    padding: 1rem;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-logo
+{
+    text-decoration: none;
+}
+
+.footer-logo-img
+{
+     height: 2rem;
+     
+}
+
+.footer-logo-name
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(20, 20, 20, 0.911);
+
+}
+
+.footer-heading
+{
+    font-size: 1.5rem;
+    color:gray;
+}
+
+.footer-img-container
+{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.footer-img
+{
+     height: 35px;
+     width: 35px;
+}
+
+.right-side-footer
+{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    width: 60%;
+    height: 350px;
+    padding: 2rem;
+    height: auto;
+    
+}
+
+ul
+{
+    list-style: none;
+}
+
+.list-header
+{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.list-item
+{
+    font-size:1.3rem;
+    color: gray;
+    margin-bottom:1rem;
+}
+
+.list-item:hover
+{
+    color: rgba(0, 0, 139, 0.945);
+    font-weight: bold;
+}
+
+/* Responsive Design Code */
+
+@media(width<=360px)
+{
+    .hero-btn
+    {
+        margin-block: 1rem;
+    }
+}
+
+@media (width<=540px) 
+{
+    .center-image-container
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px)
+{
+     html
+     {
+         font-size: 75%;
+     }
+
+     .container
+     {
+        max-width: 100% !important;
+     } 
+     
+     .navigation-section,.contact-link
+     {
+        display: none;
+     }
+     .menu-button
+     {
+        display: block;
+     }
+     .header-section,.hero-section
+     {
+          padding: 1.5rem;
+     }
+     .hero-section
+     {
+         flex-direction: column;
+         gap: 2rem;
+     }
+     .left-side-hero-section
+     {
+         width: 100%;
+         padding: 1.5rem;
+     }
+     .right-side-hero-section
+     {
+         width: 100%;
+         border-radius: 20px;
+     }
+     .hero-img
+     {
+        border-radius: 20px;
+     }
+     .hero-img-source
+     {
+        height: 100%;
+        width: 100%;
+     }
+     .center-2-card-container
+     {
+         flex-direction: column;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items: center;
+     }
+     .center-2-card
+     {
+        width: 90%;
+        height: auto;
+     }
+     .center-2-description,.card-para
+     {
+         font-size: 2.5rem;
+     }
+     .center-2-heading,.card-heading
+     {
+         font-size: 3rem;
+     }
+     .testimonial-heading
+     {
+         font-size: 3rem;
+     }
+     .testimonial-description,.avtar-name,.avtar-profession
+     {
+          font-size: 2rem;
+     }
+
+     .testimonial-card-container
+     {
+          flex-direction: column;
+          gap: 2rem;
+     }
+     .testimonial-card
+     {
+         width: 80%;
+         height: auto;
+     }
+     .form-section
+     {
+        flex-direction: column;
+     }
+     .left-side-form,.right-side-form
+     {
+          width: 100%;
+          height: auto;
+          margin: 0;
+          gap: 0;
+     }
+     .form-title
+     {
+          font-size:5rem;
+     }
+     .form-sub-title
+     {
+         font-size: 3rem;
+     }
+     .input-section
+     {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        gap: 1.5rem;
+     }
+     .input-field
+     {
+          height:auto;
+          width:90%;
+          font-size: 2rem;
+     }
+     .send-btn
+     {
+        height: auto;
+        width: 50%;
+        padding: 0.5rem;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+     }
+     .form-footer-description
+     {
+         font-size: 3rem;
+         text-align: justify;
+         line-height: normal;
+     }
+     .footer-section
+     {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+
+     }
+     .left-side-footer
+     {
+         width: 90%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: auto;
+     }
+     .footer-logo-img
+     {
+         height: 4rem;
+         width: 4rem;  
+     }
+     .footer-logo-name
+     {
+         font-size: 4rem;
+     }
+     .footer-heading
+     {
+         font-size: 3rem;
+     }
+
+     .footer-img
+     {
+          height: 5rem;
+          width: 5rem;
+     }
+     .right-side-footer
+     {
+         flex-direction: column;
+         width: 90%;
+         height: auto;
+     }
+     .list
+     {
+          width: 100%;
+          padding: 2rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+                   
+     }
+     .list-header
+     {
+        font-size: 5rem;
+     }
+     .list-item
+     {
+         font-size: 4rem;
+     }
+
+}
+
+@media (min-width:769px) and (max-width:850px)
+{
+    .navigation-section,.contact-link
+     {
+        display: none;
+     }
+     .menu-button
+     {
+        display: block;
+     }
+     .right-side-footer
+     {
+         flex-wrap: wrap;
+     }
+}
+
